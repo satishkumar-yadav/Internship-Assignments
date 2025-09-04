@@ -30,14 +30,14 @@ function App() {
         ({index + 1} of {sculptureList.length})
       </h3>
 
-     <p>Click the Image below to get its Description.</p>
+     <p>Click the Image {showMore ? "again to hide description." : ' below to show its Description.'}</p>
 
        <img  
         id="image"
         onClick={handleMoreClick}  
         src={sculpture.url}
         alt={sculpture.alt}
-        title="Click to get detailed description"
+        title={showMore ? "Click again to hide its description" : 'Click this image for its description.'} 
       /> 
     
 
