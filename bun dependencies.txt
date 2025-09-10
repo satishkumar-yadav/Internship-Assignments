@@ -1,0 +1,21 @@
+ bun add react-redux @reduxjs/toolkit notistack react-router-dom react-hook-form axios
+
+bun add tailwindcss @tailwindcss/vite
+bun add -d gh-pages
+
+
+//bun add -D tailwindcss postcss autoprefixer
+//npx tailwindcss init -p
+
+// expose host
+bun vite --host 
+bun run dev -- --host
+
+pm install react-router-dom
+npm install axios
+npm install react-redux 
+npm install @reduxjs/toolkit
+npm install react-hook-form
+npm install notistack @mui/material @emotion/react @emotion/styled
+npm install tailwindcss @tailwindcss/vite
+npm install gh-pages --save-dev
